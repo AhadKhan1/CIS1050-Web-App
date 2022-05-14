@@ -1,0 +1,185 @@
+@font-face { font-family: Valorant; src: url('../fonts/Valorant.ttf'); } 
+@font-face { font-family: Slimjoe; src: url('../fonts/Slim\ Joe.otf'); } 
+@font-face { font-family: Bigjohn; src: url('../fonts/BIG\ JOHN.otf'); } 
+
+body
+{
+	background-color: beige;
+}
+
+.header-pic
+{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: 275px;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+		 	        
+}
+
+.header-text
+{
+    position: relative;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: Valorant;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;                    
+    letter-spacing: 60px;
+	
+}
+
+.header-text span
+{
+	background-color:orange;
+    padding: 5px;
+    opacity: 0.7
+                    
+}
+
+.navbar
+{
+	width: 100%;
+	overflow: auto;
+}
+
+.navbar ul
+{
+	text-align: center;
+	float: right;
+	padding-top: 30px;
+}
+
+.navbar ul li
+{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar ul li a
+{
+	float: left;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+	font-family: Valorant;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding-right: 50px;
+}
+
+.navbar a:hover
+{
+	color:lightgray;
+}
+/*
+.navbar a.active
+{
+	background-color:orangered;
+	opacity: 1;
+	color:orangered;
+}
+
+.navbar li a:link, a:visited {
+	color:red;
+  }*/
+  
+ .navbar ul li a:hover, a:active {
+	background-color: grey;
+  }
+
+h1,h2,h3{
+	padding-top: 50px;
+	text-align: center;
+	font-family: Valorant;
+	
+}
+
+p
+{
+	font-family: BigJohn;
+	text-align: center;
+	color: gray;
+	font-size: 20px;
+}
+
+.column
+{
+	float: left;
+	width: 25%;
+    padding: 5px;
+                }
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.price
+{
+	float: right;
+	padding-right: 600px;
+}
+
+#jett
+{
+	padding-left: 900px;
+}
+
+#head2
+{
+	padding: 2px;
+}
+
+#kj
+{
+	height: 275px;
+	padding-left: 600px;
+}
+
+#reyna
+{
+	padding-left: 300px;
+}
+
+
+footer {
+	height: 12px;
+ }
+
+#socials
+{
+	padding-left: 850px;
+	letter-spacing: 50px;
+}
+
+#phoenix
+{
+	height: 500px;
+	padding-left: 800px;
+}
+
+#sova
+{
+	height: 500px;
+	padding-left: 700px;
+}
+
+#game
+{
+	padding-left: 350px;
+}
+
+.navbar .current
+{
+	background-color: darkgrey;
+}
